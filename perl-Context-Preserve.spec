@@ -4,7 +4,6 @@
 #
 %define		pdir	Context
 %define		pnam	Preserve
-%include	/usr/lib/rpm/macros.perl
 Summary:	Context::Preserve - run code after a subroutine call, preserving the context the subroutine would have seen if it were the last statement in the caller
 #Summary(pl.UTF-8):	
 Name:		perl-Context-Preserve
