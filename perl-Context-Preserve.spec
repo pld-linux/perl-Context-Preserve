@@ -7,14 +7,14 @@
 Summary:	Context::Preserve - run code after a subroutine call, preserving the context the subroutine would have seen if it were the last statement in the caller
 #Summary(pl.UTF-8):	
 Name:		perl-Context-Preserve
-Version:	0.01
-Release:	2
+Version:	0.03
+Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-authors/id/J/JR/JROCKWAY/Context-Preserve-0.01.tar.gz
-# Source0-md5:	e28c24d9e85d3f7de1c7b9a545ba991a
-URL:		http://search.cpan.org/dist/Context-Preserve/
+Source0:	https://www.cpan.org/modules/by-authors/id/E/ET/ETHER/Context-Preserve-%{version}.tar.gz
+# Source0-md5:	81dd8177129d4b2394f25c9e8d446607
+URL:		https://metacpan.org/release/Context-Preserve
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
